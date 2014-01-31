@@ -12,4 +12,9 @@ The project contains files for:
 * Matrix classes
 * NeuralNetwork class with the ability to specify which activation function to use (or specify your own custom one). It also has support for firing events after each epoch during training in order to hook into some form of GUI.
 
-The Matrix class makes use of very naive methods but should serve the purpose of Neural Networks that dont use excessively large sizes. Feel free to send a pull request for any improvements in this area (a simple one would be to make use of the C# Parallel extensions for example)
+Notes
+-----
+The Matrix class makes use of very naive methods but should serve the purpose of Neural Networks that dont use excessively large sizes. Feel free to send a pull request for any improvements in this area (a simple one would be to make use of the C# Parallel extensions for example). Using XNA's Matrix classes could also be an alternative solution since these are probably already heavily optimised.
+
+The project should be capable or running in both .NET and Mono (I have not tested the latter but there should be no reason why it wouldn't work)
+
